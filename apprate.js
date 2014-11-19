@@ -32,7 +32,7 @@
 
         onRateDialogShow: function (cb) {
           AppRate.onRateDialogShow = cb();
-        }
+        },
 
         useLanguage: function (lang) {
           AppRate.preferences.useLanguage = lang;
