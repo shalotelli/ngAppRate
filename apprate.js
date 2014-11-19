@@ -38,7 +38,7 @@
           AppRate.preferences.useLanguage = lang;
         },
 
-        customLocale = function (customLocale) {
+        customLocale: function (customLocale) {
           var strings = {
                 title: 'Rate %@',
                 message: 'If you enjoy using %@, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!',
